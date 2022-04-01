@@ -1,0 +1,23 @@
+string? food;//問號=允許字串是空值
+
+Console .WriteLine ("we have noodle、pizza、ramen、fried rice");
+
+food = Console.ReadLine();
+
+
+switch (food)
+{
+case "noodle":
+Console.WriteLine ("noodle will cause you 60$");
+break;
+case "pizza":
+Console.WriteLine ("noodle will cause you 95$");
+break;
+case "ramen":
+Console.WriteLine ("noodle will cause you 160$");
+break;
+case "fried rice":
+Console.WriteLine ("noodle will cause you 80$");
+break;
+
+}
